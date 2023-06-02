@@ -1,0 +1,323 @@
+{
+    "class": "Songs",
+    "vectorizer": "text2vec-openai",
+    "moduleConfig": {
+        "generative-openai": {
+            "model": "gpt-3.5-turbo"
+        }
+    },
+    "properties": [
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "track_name",
+            "description": ""
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "track_id",
+            "description": "The unique identifier of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "track_artist",
+            "description": "The artist or artists associated with the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "lyrics",
+            "description": "The lyrics of the song."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "track_popularity",
+            "description": "The popularity score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "track_album_id",
+            "description": "The unique identifier of the album to which the track belongs."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "track_album_name",
+            "description": "The name of the album to which the track belongs."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "track_album_release_date",
+            "description": "The release date of the album to which the track belongs."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "playlist_name",
+            "description": "The name of the playlist the track belongs to."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "playlist_id",
+            "description": "The unique identifier of the playlist the track belongs to."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "playlist_genre",
+            "description": "The genre of the playlist the track belongs to."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "playlist_subgenre",
+            "description": "The subgenre of the playlist the track belongs to."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "danceability",
+            "description": "The danceability score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "energy",
+            "description": "The energy score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "key",
+            "description": "The key of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "loudness",
+            "description": "The loudness score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "mode",
+            "description": "The mode of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "speechiness",
+            "description": "The speechiness score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "acousticness",
+            "description": "The acousticness score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "instrumentalness",
+            "description": "The instrumentalness score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "liveness",
+            "description": "The liveness score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "valence",
+            "description": "The valence score of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "tempo",
+            "description": "The tempo of the track."
+        },
+        {
+            "dataType": [
+                "text"
+            ],
+            "moduleConfig": {
+                "text2vec-openai": {
+                    "skip": false,
+                    "vectorizePropertyName": false
+                }
+            },
+            "name": "duration_ms",
+            "description": "The duration of the track in milliseconds."
+        }
+    ]
+}
